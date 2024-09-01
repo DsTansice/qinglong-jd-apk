@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">青龙京东</string>
-    <string name="action_upload_jd_cookie">上传Cookie到青龙</string>
+    <string name="app_name">京豆车</string>
+    <string name="action_upload_jd_cookie">上传Cookie到服务器</string>
     <string name="qinglong_login_name">配置青龙</string>
     <string name="ql_ak_name">青龙ClientID</string>
     <string name="ql_sk_name">青龙ClientSecret</string>
@@ -13,7 +13,7 @@
     <string name="invalid_cid">无效的ClientID</string>
     <string name="invalid_csk">无效的ClientSecret</string>
     <string name="login_failed">"登录失败"</string>
-    <string name="title_activity_qing_long_login">🐉登录青龙</string>
+    <string name="title_activity_qing_long_login">🐉登录服务器</string>
 
 
     <string name="action_clear_webview">清除本地Cookie</string>
