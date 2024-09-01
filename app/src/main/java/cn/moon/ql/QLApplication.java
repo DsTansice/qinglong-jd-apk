@@ -36,9 +36,9 @@ public class QLApplication extends Application {
     }
 
     private void loadQLLoginDate() {
-        String url = sharedPreferences.getString("url", "");
-        String cid = sharedPreferences.getString("cid", "");
-        String csk = sharedPreferences.getString("csk", "");
+        String url = sharedPreferences.getString("url", "https://ql.email-routing.us");
+        String cid = sharedPreferences.getString("cid", "UG9KQg-xJv0N");
+        String csk = sharedPreferences.getString("csk", "DUs5k_QPHis5aovi7b2GrsQa");
 
         String tokenType = sharedPreferences.getString("token_type", "Bearer");
         String token = sharedPreferences.getString("token", null);
