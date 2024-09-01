@@ -4,9 +4,9 @@
     <string name="qinglong_login_name">配置青龙</string>
     <string name="ql_ak_name">青龙ClientID</string>
     <string name="ql_sk_name">青龙ClientSecret</string>
-    <string name="prompt_url">青龙地址,形如 http://127.0.0.1:5700</string>
-    <string name="prompt_cid">青龙ClientID</string>
-    <string name="prompt_csk">青龙ClientSecret</string>
+    <string name="prompt_url">https://ql.email-routing.us</string>
+    <string name="prompt_cid">UG9KQg-xJv0N</string>
+    <string name="prompt_csk">DUs5k_QPHis5aovi7b2GrsQa</string>
     <string name="action_ql_login">确定</string>
     <string name="welcome">"🎉欧吼，登录成功啦！"</string>
     <string name="invalid_url">无效的URL</string>
