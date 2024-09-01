@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
         webView = findViewById(R.id.webView);
         uploadCookieButton = findViewById(R.id.uploadCookieButton);
-        loginQingLongButton = findViewById(R.id.setQingLongButton);
+     //   loginQingLongButton = findViewById(R.id.setQingLongButton);
         Button clearWebviewBtn = findViewById(R.id.clear_webview);
 
         // 设置 WebView 的基本属性
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         uploadCookieButton.setOnClickListener(v -> uploadCookie());
-        loginQingLongButton.setOnClickListener(v -> showQingLongLogin());
+      //  loginQingLongButton.setOnClickListener(v -> showQingLongLogin());
         clearWebviewBtn.setOnClickListener(v->clearWebview());
 
     }
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void uploadCookie() {
         if (!QLApplication.getQLStoreData().isLoggedQL()) {
-            err("☹️请先登录青龙服务器");
+            err("☹️请先登录服务器");
             return;
         }
         JDCookie jdCookie = getJDCookie();
