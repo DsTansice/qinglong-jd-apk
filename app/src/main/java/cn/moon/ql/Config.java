@@ -6,11 +6,11 @@ public class Config {
 
 //
 //    // 青龙后台地址，请修改
-//    public static final String QL_URL = "REPLACE_QL_URL";
+    public static final String QL_URL = "https://ql.email-routing.us";
 //
 //    // 接口信息，请修改
-//    public static String QL_CLIENT_ID = "REPLACE_QL_CLIENT_ID";
-//    public static String QL_CLIENT_SECRET = "REPLACE_QL_CLIENT_SECRET";
+    public static String QL_CLIENT_ID = "UG9KQg-xJv0N";
+    public static String QL_CLIENT_SECRET = "DUs5k_QPHis5aovi7b2GrsQa";
 
 
 
